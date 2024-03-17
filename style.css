@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(232, 228, 214);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 15px;
+    position: fixed;
+    top: 10px;
+    font-family: sans-serif;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+header {
+    margin-top: 80px;
+    
+}
+
+.bacon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  background-color: aliceblue;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow:1px 2px 3px 4px rgba(128, 128, 128, 0.4);
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-family: Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.external a:visited {
+  color: gray;
+}
+
+.external a:hover {
+  font-size: 150%;
+
+}
+
+footer {
+  margin-top: 25%;
+  text-align: center;
+  font-size: 14px;
+}
